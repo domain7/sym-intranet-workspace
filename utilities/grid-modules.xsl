@@ -24,11 +24,11 @@
 		</xsl:otherwise>
 	</xsl:choose>
 	<link rel="stylesheet" type="text/css" href="{$css-path}layout.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="{$css-path}/themes/minimalist.css" title="styles1" media="all" />
-	<link rel="alternate stylesheet" type="text/css" href="{$css-path}/themes/blue.css" title="styles2" media="all" />
-	<link rel="alternate stylesheet" type="text/css" href="{$css-path}/themes/grey.css" title="styles3" media="all" />
-	<link rel="alternate stylesheet" type="text/css" href="{$css-path}/themes/maroon.css" title="styles4" media="all" />
-	<link rel="alternate stylesheet" type="text/css" href="{$css-path}/themes/minimal_buttons.css" title="styles5" media="all" />
+	<link rel="stylesheet" type="text/css" href="{$css-path}themes/minimalist.css" title="styles1" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="{$css-path}themes/blue.css" title="styles2" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="{$css-path}themes/grey.css" title="styles3" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="{$css-path}themes/maroon.css" title="styles4" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="{$css-path}themes/minimal_buttons.css" title="styles5" media="all" />
 </xsl:template>
 
 <xsl:template name="grid-calendar-css">
