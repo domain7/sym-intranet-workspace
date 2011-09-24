@@ -226,20 +226,20 @@
 		<h2>Contribution</h2>
 		<div class="block">
 			<p>The <a href="/fluid960gs/">Fluid 960 Grid System</a> templates have been built upon the work of Nathan Smith and his <a href="http://960.gs/">960 Grid System</a>
-			 <xsl:choose>
-			 	<xsl:when test="$js = 'mootools'">
+			<xsl:choose>
+				<xsl:when test="$js = 'mootools'">
 					<xsl:text> using effects from the </xsl:text>
 					<a href="http://mootools.net/">MooTools</a>
 					<xsl:text> JavaScript library</xsl:text>
-			 	</xsl:when>
-			 	<xsl:when test="$js = 'jquery'">
+				</xsl:when>
+				<xsl:when test="$js = 'jquery'">
 					<xsl:text> using effects from the </xsl:text>
 					<a href="http://jquery.com/">jQuery</a>
 					<xsl:text> JavaScript library</xsl:text>
-			 	</xsl:when>
-			 </xsl:choose>
-			 <xsl:text>. </xsl:text>
-			 The idea for building these templates was inspired by Andy Clarke, author of <a href="http://www.transcendingcss.com/">Transcending CSS</a>, who advocates a content-out approach to rapid interactive prototyping, crediting Jason Santa Maria with the <a href="http://www.jasonsantamaria.com/archive/2004/05/24/grey_box_method.php">grey box method</a>.</p>
+				</xsl:when>
+			</xsl:choose>
+			<xsl:text>. </xsl:text>
+			The idea for building these templates was inspired by Andy Clarke, author of <a href="http://www.transcendingcss.com/">Transcending CSS</a>, who advocates a content-out approach to rapid interactive prototyping, crediting Jason Santa Maria with the <a href="http://www.jasonsantamaria.com/archive/2004/05/24/grey_box_method.php">grey box method</a>.</p>
 		</div>
 	</div>
 </xsl:template>
@@ -854,9 +854,9 @@
 						</ul>
 					</div>
 					<div class="comment-body">
-		                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-		                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-	                </div>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+					</div>
 				</li>
 				<li class="comment" id="comment-2">
 					<div class="comment-meta">
@@ -869,8 +869,8 @@
 						</ul>
 					</div>
 					<div class="comment-body">
-		                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-	                </div>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+					</div>
 				</li>
 				<li class="comment" id="comment-3">
 					<div class="comment-meta">
@@ -883,8 +883,8 @@
 						</ul>
 					</div>
 					<div class="comment-body">
-		                <p>Lorem ipsum dolor sit amet.</p>
-	                </div>
+						<p>Lorem ipsum dolor sit amet.</p>
+					</div>
 				</li>
 				<li class="comment" id="comment-4">
 					<div class="comment-meta">
@@ -897,9 +897,9 @@
 						</ul>
 					</div>
 					<div class="comment-body">
-		                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-		                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-	                </div>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+					</div>
 				</li>
 				<li class="comment" id="comment-5">
 					<div class="comment-meta">
@@ -912,8 +912,8 @@
 						</ul>
 					</div>
 					<div class="comment-body">
-		                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-	                </div>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+					</div>
 				</li>
 				<li class="comment" id="comment-6">
 					<div class="comment-meta">
@@ -926,8 +926,8 @@
 						</ul>
 					</div>
 					<div class="comment-body">
-		                <p>Lorem ipsum dolor sit amet.</p>
-	                </div>
+						<p>Lorem ipsum dolor sit amet.</p>
+					</div>
 				</li>
 				<li class="comment" id="comment-256">
 					<div class="comment-meta">
@@ -940,9 +940,9 @@
 						</ul>
 					</div>
 					<div class="comment-body">
-		                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-		                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-	                </div>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+					</div>
 				</li>
 			</ol>
 		</div>
@@ -1234,31 +1234,31 @@
 					</tr>
 				</tbody>
 			</table>
-            <h2>An XSLT Calendar</h2>
-            <h4>The First Step in Building a Design Administration Application</h4>
-            <p>To develop a design business administration application, it is essential to be able to keep track of time, schedule appointments, process phases and deadlines. This means that a calendar will be one of the first requirements.</p>
-            <p>Now, we could generate calendars with JavaScript and use cookies to maintain persistent selections from one page to another. With Symphony, neither of those is necessary. Let’s let the server do the work, with XML and XSLT to produce calendar views with XHTML. Thankfully, many have done a lot of the hard work of getting a calendar to work in XSLT. There are date and time libraries available from the <a href="http://xsltsl.sourceforge.net/">XSLT Standard Library</a>. It is also possible to glean templates that perform date and time functions from <a href="http://www.exslt.org/">EXSLT.org</a>.</p>
-            <p>I took a look at a couple other calendar examples that I might be able to adapt, but both are dependent on external xslt libraries or functions, which is why I passed on them to begin with: trying to avoid any dependencies on external libraries. <a href="http://www.the-wabe.com/notebook/xslt-calendar">XSLT Cookbook: Creating a HTML Calendar</a> depends on the the <a href="http://www.exslt.org/">EXSLT.org</a> date-time extensions. The other is <a href="http://www.topxml.com/code/default.asp?p=3&amp;id=v20020711152545">A Calendar, using the XSelerator’s datetime library</a>. In the end, I chose to use the work of <a href="http://incrementaldevelopment.com/">Muhammad Athar Parvez</a> on an XSL stylesheet that generates a single calendar month: <a href="http://incrementaldevelopment.com/xsltrick/parvez/">Parvez’s Wing of the Gallery of Stupid XSL and XSLT Tricks</a>.</p>
-            <p>Note: there is an interesting calendar FAQ on the issues of dates and calendars compiled by Claus Tøndering, <a href="http://www.tondering.dk/claus/calendar.html">Frequently Asked Questions about Calendars</a>.</p>
-            <p>I started in Symphony with a static XML data source:</p>
+			<h2>An XSLT Calendar</h2>
+			<h4>The First Step in Building a Design Administration Application</h4>
+			<p>To develop a design business administration application, it is essential to be able to keep track of time, schedule appointments, process phases and deadlines. This means that a calendar will be one of the first requirements.</p>
+			<p>Now, we could generate calendars with JavaScript and use cookies to maintain persistent selections from one page to another. With Symphony, neither of those is necessary. Let’s let the server do the work, with XML and XSLT to produce calendar views with XHTML. Thankfully, many have done a lot of the hard work of getting a calendar to work in XSLT. There are date and time libraries available from the <a href="http://xsltsl.sourceforge.net/">XSLT Standard Library</a>. It is also possible to glean templates that perform date and time functions from <a href="http://www.exslt.org/">EXSLT.org</a>.</p>
+			<p>I took a look at a couple other calendar examples that I might be able to adapt, but both are dependent on external xslt libraries or functions, which is why I passed on them to begin with: trying to avoid any dependencies on external libraries. <a href="http://www.the-wabe.com/notebook/xslt-calendar">XSLT Cookbook: Creating a HTML Calendar</a> depends on the the <a href="http://www.exslt.org/">EXSLT.org</a> date-time extensions. The other is <a href="http://www.topxml.com/code/default.asp?p=3&amp;id=v20020711152545">A Calendar, using the XSelerator’s datetime library</a>. In the end, I chose to use the work of <a href="http://incrementaldevelopment.com/">Muhammad Athar Parvez</a> on an XSL stylesheet that generates a single calendar month: <a href="http://incrementaldevelopment.com/xsltrick/parvez/">Parvez’s Wing of the Gallery of Stupid XSL and XSLT Tricks</a>.</p>
+			<p>Note: there is an interesting calendar FAQ on the issues of dates and calendars compiled by Claus Tøndering, <a href="http://www.tondering.dk/claus/calendar.html">Frequently Asked Questions about Calendars</a>.</p>
+			<p>I started in Symphony with a static XML data source:</p>
 <pre><code>&lt;calendar&gt;
-    &lt;year&gt;
-        &lt;month value="1" days="31"&gt;January&lt;/month&gt;
-        &lt;month value="2" days="28" leap-year-days="29"&gt;February&lt;/month&gt;
-        &lt;month value="3" days="31"&gt;March&lt;/month&gt;
-        &lt;month value="4" days="30"&gt;April&lt;/month&gt;
-        &lt;month value="5" days="31"&gt;May&lt;/month&gt;
-        &lt;month value="6" days="30"&gt;June&lt;/month&gt;
-        &lt;month value="7" days="31"&gt;July&lt;/month&gt;
-        &lt;month value="8" days="31"&gt;August&lt;/month&gt;
-        &lt;month value="9" days="30"&gt;September&lt;/month&gt;
-        &lt;month value="10" days="31"&gt;October&lt;/month&gt;
-        &lt;month value="11" days="30"&gt;November&lt;/month&gt;
-        &lt;month value="12" days="31"&gt;December&lt;/month&gt;
-    &lt;/year&gt;
+	&lt;year&gt;
+		&lt;month value="1" days="31"&gt;January&lt;/month&gt;
+		&lt;month value="2" days="28" leap-year-days="29"&gt;February&lt;/month&gt;
+		&lt;month value="3" days="31"&gt;March&lt;/month&gt;
+		&lt;month value="4" days="30"&gt;April&lt;/month&gt;
+		&lt;month value="5" days="31"&gt;May&lt;/month&gt;
+		&lt;month value="6" days="30"&gt;June&lt;/month&gt;
+		&lt;month value="7" days="31"&gt;July&lt;/month&gt;
+		&lt;month value="8" days="31"&gt;August&lt;/month&gt;
+		&lt;month value="9" days="30"&gt;September&lt;/month&gt;
+		&lt;month value="10" days="31"&gt;October&lt;/month&gt;
+		&lt;month value="11" days="30"&gt;November&lt;/month&gt;
+		&lt;month value="12" days="31"&gt;December&lt;/month&gt;
+	&lt;/year&gt;
 &lt;/calendar&gt;
 </code></pre>
-            <p>The rest of the application is a CSS file and four XSLT templates that display the four calendar views: year, month, week and day. View the <a href="http://designadmin.com/calendar/">calendar</a> to see the results of this work, which extends the work of Parvez to include the additional views, navigation with persistent dates, and hours for the week and day views.</p>
+			<p>The rest of the application is a CSS file and four XSLT templates that display the four calendar views: year, month, week and day. View the <a href="http://designadmin.com/calendar/">calendar</a> to see the results of this work, which extends the work of Parvez to include the additional views, navigation with persistent dates, and hours for the week and day views.</p>
 		</div>
 	</div>
 </xsl:template>
