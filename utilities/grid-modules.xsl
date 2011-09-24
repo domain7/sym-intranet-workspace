@@ -56,7 +56,7 @@
 
 <xsl:template name="grid-jquery">
 	<xsl:param name="js-path" select="concat($workspace, '/intranet/js/')"/>
-	<script type="text/javascript" src="{$js-path}jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="{$js-path}jquery-1.6.4.min.js"></script>
 	<script type="text/javascript" src="{$js-path}jquery-ui-1.7.1.custom.min.js"></script>
 	<script type="text/javascript" src="{$js-path}jquery-fluid.js"></script>
 	<script type="text/javascript" src="{$js-path}jquery-styleswitch.js"></script>
